@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018322E7F5954641FCB36FA9A110690E /* KeepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 34CE1B7EDEA18411641F8EBDE9742D59 /* KeepView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BEAF5EEF9B1D110E68BB7A18C88190C /* KeepAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F07DBC063341F9C8534584D8641177 /* KeepAttribute.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F09DEA2DFF7B8334B5589D53017BB83 /* KeepLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EEB20A41EC933655B4E98643B413B3 /* KeepLayout-dummy.m */; };
+		0F2E3BA8DAF346ACF52C5EED48A25B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		0F9C50A97C6B3D7E60D1F14DF2E32631 /* KeepLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EC814C16D72836B18ED417D6AEB487B3 /* KeepLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1582C5CBA5100CDFEDC07BFB06438A /* KeepTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9904670A4C97F640363679EC4C182E60 /* KeepTypes.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2CF804DFF665DB32AFF41D5F45C47AC7 /* Pods-ScrollInScrollPages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C5ECA0C1B357834D79E38C7555F0ED /* Pods-ScrollInScrollPages-dummy.m */; };
+		36F69B2C040A168D26934A6875228366 /* KeepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4697834C6822878A118488C9E86D8D44 /* KeepView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		54C3CA5766C47CA7EE6F75638A1B7333 /* KeepLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAE9D1A74C26D967D8A11669574EBBB /* KeepLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E393142D830C50A885C903A546DA474 /* UIViewController+KeepLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 278C552198945BD9F36463A9D446E57B /* UIViewController+KeepLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602E9F7FCE3671B86CED8D216552EB6B /* KeepArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A44E12AC8108A42AEAB176ED34214 /* KeepArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		713E8B1BEA3B61E13D91926DAAF46790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		8F667ADD6F7E8779FE76945F2BFEDBBD /* KeepArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CB034AECB0C25EBAF2D0CC5F895383AC /* KeepArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90AC1D8837B07B91334060EE722149BD /* Pods-ScrollInScrollPagesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 864045E3A913D5F7D7BC09DD7B1FA3BE /* Pods-ScrollInScrollPagesTests-dummy.m */; };
+		91CBB94A66062CC9AA216DE9021C6B7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		970F65C087275BB3ABD2F1FA47BB2353 /* UIScrollView+KeepLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC36ED5A7EA74F17677C48754753C35 /* UIScrollView+KeepLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B43833A9E563CEF07504B122FD8B9475 /* KeepTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 276CE355D5B37D3D7D50AA8D0E0E4F46 /* KeepTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA23F34C6D20ACD9112B5F6122714F21 /* UIViewController+KeepLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEAF4133D0DD3B42D47804C09A37A12 /* UIViewController+KeepLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1F6A91C1939888DF5D67CA8DDE2E919 /* KeepLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EDD06C40E2E07BD3B5B40D4B4D1DD3 /* KeepLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CEE708B756796F02123E5A21647868CD /* KeepAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D6B5022852F1610BB4173046AA7E72 /* KeepAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAFCC65C52A663B7710EF50819634DF2 /* UIScrollView+KeepLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A8973847203624457711374671EAF9 /* UIScrollView+KeepLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1D1E735D438470E35563D832DB6635D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F11F087ECE31D1AD9A069248A01F9066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 027F783D3F01B2937D482AE43B0348FD;
+			remoteInfo = KeepLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FBAF7D436C40B1C2798A8A68BE35CA /* Pods-ScrollInScrollPages-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollInScrollPages-resources.sh"; sourceTree = "<group>"; };
+		1811EB86B7F1E9698E73C28C88650B22 /* Pods-ScrollInScrollPages-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollInScrollPages-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AA059B93373D192B20FBBA5164D8ED8 /* Pods-ScrollInScrollPagesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollInScrollPagesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		276CE355D5B37D3D7D50AA8D0E0E4F46 /* KeepTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeepTypes.h; path = Sources/KeepTypes.h; sourceTree = "<group>"; };
+		278C552198945BD9F36463A9D446E57B /* UIViewController+KeepLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KeepLayout.h"; path = "Sources/UIViewController+KeepLayout.h"; sourceTree = "<group>"; };
+		2DF0C0D02B162AF59C853DC2371DC9B0 /* Pods-ScrollInScrollPages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollInScrollPages.release.xcconfig"; sourceTree = "<group>"; };
+		327166020FF10DD34208CA995CD98A3B /* Pods-ScrollInScrollPagesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollInScrollPagesTests-resources.sh"; sourceTree = "<group>"; };
+		34CE1B7EDEA18411641F8EBDE9742D59 /* KeepView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeepView.h; path = Sources/KeepView.h; sourceTree = "<group>"; };
+		3E2ED99F68D5849070F276DBA256A5DD /* libKeepLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKeepLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7F3835C9F53A5CCAF31BE661B8F548 /* KeepLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeepLayout-prefix.pch"; sourceTree = "<group>"; };
+		4697834C6822878A118488C9E86D8D44 /* KeepView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeepView.m; path = Sources/KeepView.m; sourceTree = "<group>"; };
+		57982DD94A6A635C785EC16500B69491 /* Pods-ScrollInScrollPages-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollInScrollPages-frameworks.sh"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		65D6B5022852F1610BB4173046AA7E72 /* KeepAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeepAttribute.h; path = Sources/KeepAttribute.h; sourceTree = "<group>"; };
+		65F07DBC063341F9C8534584D8641177 /* KeepAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeepAttribute.m; path = Sources/KeepAttribute.m; sourceTree = "<group>"; };
+		661A44E12AC8108A42AEAB176ED34214 /* KeepArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeepArray.m; path = Sources/KeepArray.m; sourceTree = "<group>"; };
+		69ABD41BDE4A4F007026953151BC83FD /* Pods-ScrollInScrollPagesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollInScrollPagesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BC36ED5A7EA74F17677C48754753C35 /* UIScrollView+KeepLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+KeepLayout.m"; path = "Sources/UIScrollView+KeepLayout.m"; sourceTree = "<group>"; };
+		6D5C97078FE4E1BA8D7FB33A87604F7E /* Pods-ScrollInScrollPagesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollInScrollPagesTests-frameworks.sh"; sourceTree = "<group>"; };
+		77EDD06C40E2E07BD3B5B40D4B4D1DD3 /* KeepLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeepLayoutConstraint.m; path = Sources/KeepLayoutConstraint.m; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		84A8973847203624457711374671EAF9 /* UIScrollView+KeepLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+KeepLayout.h"; path = "Sources/UIScrollView+KeepLayout.h"; sourceTree = "<group>"; };
+		85EEB20A41EC933655B4E98643B413B3 /* KeepLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeepLayout-dummy.m"; sourceTree = "<group>"; };
+		864045E3A913D5F7D7BC09DD7B1FA3BE /* Pods-ScrollInScrollPagesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollInScrollPagesTests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9549A9A085025BF4B013B726E3CC63C0 /* Pods-ScrollInScrollPages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollInScrollPages.debug.xcconfig"; sourceTree = "<group>"; };
+		9904670A4C97F640363679EC4C182E60 /* KeepTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeepTypes.m; path = Sources/KeepTypes.m; sourceTree = "<group>"; };
+		CB034AECB0C25EBAF2D0CC5F895383AC /* KeepArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeepArray.h; path = Sources/KeepArray.h; sourceTree = "<group>"; };
+		CDA8F680FB1231E3AF0433B24E4ADAE1 /* KeepLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeepLayout.xcconfig; sourceTree = "<group>"; };
+		CE63EDE764864B3D6B326961BAB5DBDC /* Pods-ScrollInScrollPagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollInScrollPagesTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFEAF4133D0DD3B42D47804C09A37A12 /* UIViewController+KeepLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KeepLayout.m"; path = "Sources/UIViewController+KeepLayout.m"; sourceTree = "<group>"; };
+		DB9DFD610F048F0CB91001CE81080E5C /* Pods-ScrollInScrollPages-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollInScrollPages-acknowledgements.plist"; sourceTree = "<group>"; };
+		E45C5EA928FAF97B123E13B799ACD0A3 /* libPods-ScrollInScrollPages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollInScrollPages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC814C16D72836B18ED417D6AEB487B3 /* KeepLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeepLayoutConstraint.h; path = Sources/KeepLayoutConstraint.h; sourceTree = "<group>"; };
+		EEAE9D1A74C26D967D8A11669574EBBB /* KeepLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeepLayout.h; path = Sources/KeepLayout.h; sourceTree = "<group>"; };
+		F59C89AB2AD501E0D91C26426D6D5932 /* libPods-ScrollInScrollPagesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollInScrollPagesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C5ECA0C1B357834D79E38C7555F0ED /* Pods-ScrollInScrollPages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollInScrollPages-dummy.m"; sourceTree = "<group>"; };
+		FA78974AA1296EC59598CDC76549A8BA /* Pods-ScrollInScrollPagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollInScrollPagesTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E9D9F0F1B228E67209FCFD041D9B6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D1E735D438470E35563D832DB6635D /* Foundation.framework in Frameworks */,
+				91CBB94A66062CC9AA216DE9021C6B7A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AEA9E5E967558A16320A1A6FF244DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2E3BA8DAF346ACF52C5EED48A25B9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC8FA460E07549F6E381B915201A2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713E8B1BEA3B61E13D91926DAAF46790 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D073A6707FF1B0E734C104AAEAB1CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81AAADB382C96E67122298C76FEF8068 /* Pods-ScrollInScrollPages */,
+				56A9C47FE9352ADC5DDE32F2E3BE28C3 /* Pods-ScrollInScrollPagesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1CE8375A361B8D0CF115BB3EDF484C39 /* KeepLayout */ = {
+			isa = PBXGroup;
+			children = (
+				48B887C4D13C2417ACB2289D10CF398C /* ObjC */,
+				4B2DAB04BEB8F404D7525B06B373DF41 /* Support Files */,
+			);
+			path = KeepLayout;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48B887C4D13C2417ACB2289D10CF398C /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				CB034AECB0C25EBAF2D0CC5F895383AC /* KeepArray.h */,
+				661A44E12AC8108A42AEAB176ED34214 /* KeepArray.m */,
+				65D6B5022852F1610BB4173046AA7E72 /* KeepAttribute.h */,
+				65F07DBC063341F9C8534584D8641177 /* KeepAttribute.m */,
+				EEAE9D1A74C26D967D8A11669574EBBB /* KeepLayout.h */,
+				EC814C16D72836B18ED417D6AEB487B3 /* KeepLayoutConstraint.h */,
+				77EDD06C40E2E07BD3B5B40D4B4D1DD3 /* KeepLayoutConstraint.m */,
+				276CE355D5B37D3D7D50AA8D0E0E4F46 /* KeepTypes.h */,
+				9904670A4C97F640363679EC4C182E60 /* KeepTypes.m */,
+				34CE1B7EDEA18411641F8EBDE9742D59 /* KeepView.h */,
+				4697834C6822878A118488C9E86D8D44 /* KeepView.m */,
+				84A8973847203624457711374671EAF9 /* UIScrollView+KeepLayout.h */,
+				6BC36ED5A7EA74F17677C48754753C35 /* UIScrollView+KeepLayout.m */,
+				278C552198945BD9F36463A9D446E57B /* UIViewController+KeepLayout.h */,
+				CFEAF4133D0DD3B42D47804C09A37A12 /* UIViewController+KeepLayout.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		493BFECF3373003D5223A2DE0C61AF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2ED99F68D5849070F276DBA256A5DD /* libKeepLayout.a */,
+				E45C5EA928FAF97B123E13B799ACD0A3 /* libPods-ScrollInScrollPages.a */,
+				F59C89AB2AD501E0D91C26426D6D5932 /* libPods-ScrollInScrollPagesTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B2DAB04BEB8F404D7525B06B373DF41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8F680FB1231E3AF0433B24E4ADAE1 /* KeepLayout.xcconfig */,
+				85EEB20A41EC933655B4E98643B413B3 /* KeepLayout-dummy.m */,
+				3F7F3835C9F53A5CCAF31BE661B8F548 /* KeepLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeepLayout";
+			sourceTree = "<group>";
+		};
+		56A9C47FE9352ADC5DDE32F2E3BE28C3 /* Pods-ScrollInScrollPagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AA059B93373D192B20FBBA5164D8ED8 /* Pods-ScrollInScrollPagesTests-acknowledgements.markdown */,
+				69ABD41BDE4A4F007026953151BC83FD /* Pods-ScrollInScrollPagesTests-acknowledgements.plist */,
+				864045E3A913D5F7D7BC09DD7B1FA3BE /* Pods-ScrollInScrollPagesTests-dummy.m */,
+				6D5C97078FE4E1BA8D7FB33A87604F7E /* Pods-ScrollInScrollPagesTests-frameworks.sh */,
+				327166020FF10DD34208CA995CD98A3B /* Pods-ScrollInScrollPagesTests-resources.sh */,
+				FA78974AA1296EC59598CDC76549A8BA /* Pods-ScrollInScrollPagesTests.debug.xcconfig */,
+				CE63EDE764864B3D6B326961BAB5DBDC /* Pods-ScrollInScrollPagesTests.release.xcconfig */,
+			);
+			name = "Pods-ScrollInScrollPagesTests";
+			path = "Target Support Files/Pods-ScrollInScrollPagesTests";
+			sourceTree = "<group>";
+		};
+		7023C1310A311F180FFA4F8CBDF82411 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CE8375A361B8D0CF115BB3EDF484C39 /* KeepLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7023C1310A311F180FFA4F8CBDF82411 /* Pods */,
+				493BFECF3373003D5223A2DE0C61AF2A /* Products */,
+				07D073A6707FF1B0E734C104AAEAB1CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81AAADB382C96E67122298C76FEF8068 /* Pods-ScrollInScrollPages */ = {
+			isa = PBXGroup;
+			children = (
+				1811EB86B7F1E9698E73C28C88650B22 /* Pods-ScrollInScrollPages-acknowledgements.markdown */,
+				DB9DFD610F048F0CB91001CE81080E5C /* Pods-ScrollInScrollPages-acknowledgements.plist */,
+				F7C5ECA0C1B357834D79E38C7555F0ED /* Pods-ScrollInScrollPages-dummy.m */,
+				57982DD94A6A635C785EC16500B69491 /* Pods-ScrollInScrollPages-frameworks.sh */,
+				02FBAF7D436C40B1C2798A8A68BE35CA /* Pods-ScrollInScrollPages-resources.sh */,
+				9549A9A085025BF4B013B726E3CC63C0 /* Pods-ScrollInScrollPages.debug.xcconfig */,
+				2DF0C0D02B162AF59C853DC2371DC9B0 /* Pods-ScrollInScrollPages.release.xcconfig */,
+			);
+			name = "Pods-ScrollInScrollPages";
+			path = "Target Support Files/Pods-ScrollInScrollPages";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AE11C926AC087218D129DD02BF3A674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F667ADD6F7E8779FE76945F2BFEDBBD /* KeepArray.h in Headers */,
+				CEE708B756796F02123E5A21647868CD /* KeepAttribute.h in Headers */,
+				54C3CA5766C47CA7EE6F75638A1B7333 /* KeepLayout.h in Headers */,
+				0F9C50A97C6B3D7E60D1F14DF2E32631 /* KeepLayoutConstraint.h in Headers */,
+				B43833A9E563CEF07504B122FD8B9475 /* KeepTypes.h in Headers */,
+				018322E7F5954641FCB36FA9A110690E /* KeepView.h in Headers */,
+				DAFCC65C52A663B7710EF50819634DF2 /* UIScrollView+KeepLayout.h in Headers */,
+				5E393142D830C50A885C903A546DA474 /* UIViewController+KeepLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		027F783D3F01B2937D482AE43B0348FD /* KeepLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A817BD57BAFEDA2ED4F7B942044EE97 /* Build configuration list for PBXNativeTarget "KeepLayout" */;
+			buildPhases = (
+				86A1016A040E7CCB86DB9496FD33C5CD /* Sources */,
+				0E9D9F0F1B228E67209FCFD041D9B6E6 /* Frameworks */,
+				5AE11C926AC087218D129DD02BF3A674 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeepLayout;
+			productName = KeepLayout;
+			productReference = 3E2ED99F68D5849070F276DBA256A5DD /* libKeepLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3436CBFC84CB883DC26525FAEEF326F0 /* Pods-ScrollInScrollPages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23EC2CE2B14D8316BE7B48520A49B8B /* Build configuration list for PBXNativeTarget "Pods-ScrollInScrollPages" */;
+			buildPhases = (
+				0B0C4CB072A939B44114227D5D52A4B4 /* Sources */,
+				BBC8FA460E07549F6E381B915201A2A5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7413846F494EC52E49450AEB522E890 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScrollInScrollPages";
+			productName = "Pods-ScrollInScrollPages";
+			productReference = E45C5EA928FAF97B123E13B799ACD0A3 /* libPods-ScrollInScrollPages.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7D257F9B6196A5AE205B9721783B70B1 /* Pods-ScrollInScrollPagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283E1F0EA1188A55552C21FBA6CF7C15 /* Build configuration list for PBXNativeTarget "Pods-ScrollInScrollPagesTests" */;
+			buildPhases = (
+				398FF3C26AD1D5E41D85E806E67A7156 /* Sources */,
+				59AEA9E5E967558A16320A1A6FF244DB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ScrollInScrollPagesTests";
+			productName = "Pods-ScrollInScrollPagesTests";
+			productReference = F59C89AB2AD501E0D91C26426D6D5932 /* libPods-ScrollInScrollPagesTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 493BFECF3373003D5223A2DE0C61AF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				027F783D3F01B2937D482AE43B0348FD /* KeepLayout */,
+				3436CBFC84CB883DC26525FAEEF326F0 /* Pods-ScrollInScrollPages */,
+				7D257F9B6196A5AE205B9721783B70B1 /* Pods-ScrollInScrollPagesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B0C4CB072A939B44114227D5D52A4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF804DFF665DB32AFF41D5F45C47AC7 /* Pods-ScrollInScrollPages-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398FF3C26AD1D5E41D85E806E67A7156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AC1D8837B07B91334060EE722149BD /* Pods-ScrollInScrollPagesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A1016A040E7CCB86DB9496FD33C5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602E9F7FCE3671B86CED8D216552EB6B /* KeepArray.m in Sources */,
+				0BEAF5EEF9B1D110E68BB7A18C88190C /* KeepAttribute.m in Sources */,
+				0F09DEA2DFF7B8334B5589D53017BB83 /* KeepLayout-dummy.m in Sources */,
+				C1F6A91C1939888DF5D67CA8DDE2E919 /* KeepLayoutConstraint.m in Sources */,
+				1C1582C5CBA5100CDFEDC07BFB06438A /* KeepTypes.m in Sources */,
+				36F69B2C040A168D26934A6875228366 /* KeepView.m in Sources */,
+				970F65C087275BB3ABD2F1FA47BB2353 /* UIScrollView+KeepLayout.m in Sources */,
+				BA23F34C6D20ACD9112B5F6122714F21 /* UIViewController+KeepLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7413846F494EC52E49450AEB522E890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeepLayout;
+			target = 027F783D3F01B2937D482AE43B0348FD /* KeepLayout */;
+			targetProxy = F11F087ECE31D1AD9A069248A01F9066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		09921495A40FAACCAF9A41AB8A1C48CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA8F680FB1231E3AF0433B24E4ADAE1 /* KeepLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeepLayout/KeepLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		101559DC833F3120978BE46131000688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9549A9A085025BF4B013B726E3CC63C0 /* Pods-ScrollInScrollPages.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2EBCA6D41113A08DCE8999F01F8ABDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE63EDE764864B3D6B326961BAB5DBDC /* Pods-ScrollInScrollPagesTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76B980144693A6C8BA80C1F7434DC1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA8F680FB1231E3AF0433B24E4ADAE1 /* KeepLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeepLayout/KeepLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E002382498FE2CDB0451A0FBDBB129E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA78974AA1296EC59598CDC76549A8BA /* Pods-ScrollInScrollPagesTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FE04716340E1A57CD207C2C40AC6A452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF0C0D02B162AF59C853DC2371DC9B0 /* Pods-ScrollInScrollPages.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283E1F0EA1188A55552C21FBA6CF7C15 /* Build configuration list for PBXNativeTarget "Pods-ScrollInScrollPagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E002382498FE2CDB0451A0FBDBB129E0 /* Debug */,
+				2EBCA6D41113A08DCE8999F01F8ABDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A817BD57BAFEDA2ED4F7B942044EE97 /* Build configuration list for PBXNativeTarget "KeepLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B980144693A6C8BA80C1F7434DC1E4 /* Debug */,
+				09921495A40FAACCAF9A41AB8A1C48CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23EC2CE2B14D8316BE7B48520A49B8B /* Build configuration list for PBXNativeTarget "Pods-ScrollInScrollPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101559DC833F3120978BE46131000688 /* Debug */,
+				FE04716340E1A57CD207C2C40AC6A452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

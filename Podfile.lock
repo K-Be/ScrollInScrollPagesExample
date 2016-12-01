@@ -1,0 +1,22 @@
+PODS:
+  - KeepLayout/ObjC (1.7.0)
+
+DEPENDENCIES:
+  - KeepLayout/ObjC (from `https://github.com/iMartinKiss/KeepLayout`, branch `master`)
+
+EXTERNAL SOURCES:
+  KeepLayout:
+    :branch: master
+    :git: https://github.com/iMartinKiss/KeepLayout
+
+CHECKOUT OPTIONS:
+  KeepLayout:
+    :commit: 48e6405e434c16655a943d68c805dbbf0faadf7a
+    :git: https://github.com/iMartinKiss/KeepLayout
+
+SPEC CHECKSUMS:
+  KeepLayout: 1881e51638fab0a0748890748de8deb9f01891a1
+
+PODFILE CHECKSUM: 9b716345b2ed4b03820096de6d5fe55c3a9fc570
+
+COCOAPODS: 1.1.1
